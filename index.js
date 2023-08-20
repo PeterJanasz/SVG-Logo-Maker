@@ -21,7 +21,12 @@ const questions = [
         message: 'What color would you like your shape to be?',
         type: 'input',
          validate: (answer) => {
-            const validateColor =colorKeywords.includes(answer);
+            // Convert the color input to capitalized form to match colorKeywords
+            function capitalizeFirstLetter(answerStr) {
+                return answerStr.charAt(0).toUpperCase() + answerStr.slice(1);
+            }
+            const capitalizedColor = capitalizeFirstLetter(answer);
+            const validateColor = colorKeywords.includes(capitalizedColor);
             return validateColor ? true : "Please enter a valid color."
         }
     },
@@ -41,7 +46,11 @@ const questions = [
         message: 'What color would you like your text to be?',
         type: 'input',
         validate: (answer) => {
-            const validateColor =colorKeywords.includes(answer);
+            function capitalizeFirstLetter(answerStr) {
+                return answerStr.charAt(0).toUpperCase() + answerStr.slice(1);
+            }
+            const capitalizedColor = capitalizeFirstLetter(answer);
+            const validateColor = colorKeywords.includes(capitalizedColor);
             return validateColor ? true : "Please enter a valid color."
         }
     }
