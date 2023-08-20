@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const colorKeywords = require('./lib/colorKeywords');
-const generateLogo = require('./lib/shapes');
+const generateLogo = require('./lib/generateLogo');
 
 const questions = [
     {
