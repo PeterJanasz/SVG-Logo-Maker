@@ -6,8 +6,13 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterJanasz/SVG-Logo-Maker.git"
+  },
+  "keywords": ["SVG",  "Logo-Maker"],
+  "author": "Peter Janasz",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.4"
