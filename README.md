@@ -1,10 +1,8 @@
-# README.md generator
-
-[![License]
+# SVG-Logo-Maker
 
 ## Table-of-Contents
 
-- [README.md generator](#readmemd-generator)
+- [SVG-Logo-Maker](#svg-logo-maker)
   - [Table-of-Contents](#table-of-contents)
   - [Description](#description)
   - [Installation](#installation)
@@ -31,10 +29,7 @@ Open integrated terminal and enter node index.js to start the logo generater. Yo
 Refer to walkthrough video in screenshot section. 
 
 ## [License](#table-of-contents)
-    The application is covered under the following license:
-    - [apache] https://opensource.org/licenses/apache 
     
-
 ## [Contributing](#table-of-contents)
 
 None
